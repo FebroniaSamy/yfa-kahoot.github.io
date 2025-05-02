@@ -1,0 +1,87 @@
+body {
+    background: #0b151f;
+    width: 100% !important;
+    height: 100% !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+i {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure white font color for text elements */
+body, p, h1, h2, h3, h4, h5, h6, span, a, li, td, th, label,  button {
+    color: white ;
+}
+
+#map {
+    width: 400px;
+    height: 300px;
+}
+
+.nav {
+    background: linear-gradient(36deg, rgba(41,70,97,1) 14%, rgba(65,107,112,1) 33%, rgba(15,156,135,1) 61%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ height: 60px;
+    
+}
+
+.nav img {
+    height: 40px;
+    width: auto;
+}
+
+.nav nav button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.nav nav button a {
+    color: white;
+}
+
+.center-content {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.container{
+    width: 60%;
+}
+button {
+    background-color: #416b70;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,23 @@
+
+.nav{
+    display: flex;
+  justify-content: space-around;
+  margin:auto;
+  width: 80%;
+  background-color: rgb(190, 236, 221);
+
+}
+nav {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* .nav img{
+    width: 40px;
+
+} */
