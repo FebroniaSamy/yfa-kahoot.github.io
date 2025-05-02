@@ -5,7 +5,7 @@ import hashlib
 
 
 app=Flask(__name__, template_folder='templates', static_folder='Static')
-app.secret_key="STP"
+app.secret_key="YFA"
 
 
 
